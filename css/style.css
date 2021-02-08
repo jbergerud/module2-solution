@@ -1,0 +1,95 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+body {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 175%;
+}
+h2 {
+  text-align: center;
+  font-size: 125%;
+}
+
+p {
+  color: black;
+  padding: 40px 12px 12px 12px;
+}
+
+#h2-1 {
+  background-color: #800000;
+  color: white;
+}
+#h2-2 {
+  background-color: #DEB887;
+}
+#h2-3 {
+  background-color: #20b2aa;
+  color: white;
+  }
+
+.description {
+  background-color: #fafad2;
+  position: relative;
+  border: 1px solid black;
+  margin: 12px;
+}
+
+.menuitem {
+  position: relative;
+  float: right;
+  width: 130px;
+  border: 1px solid black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 50%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 33.33%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
